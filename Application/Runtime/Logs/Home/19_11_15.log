@@ -1,0 +1,453 @@
+[ 2019-11-15T02:03:22+08:00 ] 61.241.50.63 http://129.211.3.88/jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002503s ]
+
+[ 2019-11-15T08:17:09+08:00 ] 223.104.145.42 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001977s ]
+
+[ 2019-11-15T08:17:13+08:00 ] 223.104.145.42 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2019-11-15T08:17:13+08:00 ] 223.104.145.42 /jianli/home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-11-15T08:17:59+08:00 ] 223.104.145.42 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='SS' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008895s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006084s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002047s ]
+
+[ 2019-11-15T08:17:59+08:00 ] 223.104.145.42 /jianli/home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-11-15T08:18:00+08:00 ] 223.104.145.42 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001982s ]
+
+[ 2019-11-15T08:18:00+08:00 ] 223.104.145.42 /jianli/home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-11-15T08:18:06+08:00 ] 101.89.19.149 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002127s ]
+
+[ 2019-11-15T08:18:09+08:00 ] 223.104.145.42 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002018s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006235s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002028s ]
+
+[ 2019-11-15T08:18:09+08:00 ] 223.104.145.42 /jianli/home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-11-15T08:18:10+08:00 ] 223.104.145.42 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001957s ]
+
+[ 2019-11-15T08:18:10+08:00 ] 223.104.145.42 /jianli/home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002399s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-11-15T08:18:13+08:00 ] 101.91.62.99 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001955s ]
+
+[ 2019-11-15T12:46:36+08:00 ] 36.61.206.67 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002111s ]
+
+[ 2019-11-15T12:47:50+08:00 ] 58.251.121.184 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002315s ]
+
+[ 2019-11-15T12:47:50+08:00 ] 36.61.206.67 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001963s ]
+
+[ 2019-11-15T12:47:56+08:00 ] 36.61.206.67 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002150s ]
+
+[ 2019-11-15T12:47:57+08:00 ] 36.61.206.67 /jianli/home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-11-15T12:48:56+08:00 ] 101.89.29.97 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002045s ]
+
+[ 2019-11-15T16:44:33+08:00 ] 101.89.19.140 http://129.211.3.88/jianli/?nsukey%3DpweABf5jqTDqLv17j1%252BPT7Vw%252FvaA%252BJ7Um7zJrmcJQbLGAIL5AvO1fe1T%252FqwunxbW9ix1N6kcgcPIPJo%252Fw8%252FbXm8wjZOARIZIrqZz3VKQBO%252FxWI%252FeELdqT5C%252BtCo8Z4Qu%252B0xgn4RGpVHi05gtEYxaodWXsqMZE4u025VSV2lXTkexheu7NH4%252FZ49AVqhVfyOuCYHKVUj%252BJZodya0NI1KeGw%253D%253D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002036s ]
+
+[ 2019-11-15T16:58:36+08:00 ] 182.254.52.17 http://129.211.3.88/jianli/?nsukey%3DUAyJyslybeJVVseM0HGS1ibTx%252FY%252FgyyHsamqbQTYdepNxgOiXWPQ%252FczjWIwRincVfa7UxJK3h23JpW2Ua1iEhyea9ah%252F4zpzk1z%252FPUxXLeqracklWj84ND9nxrRMi7ON0lzwSyJf0n%252BHz6ZTdbI2jSems0ImXL5Px%252FlBWt7cmfop0ATQibthVQp7EqOEdTYp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2019-11-15T17:11:59+08:00 ] 101.89.19.140 http://129.211.3.88/jianli/?nsukey%3D2Bv%252Fw5LKyNMQdhojIX4O6IFPrg1k2u42OuVi2V9kMXH8zPXKdgbp%252B40qkCwBDAGQYXefMCTnaCsmsd4bP82aN8Gr5AKyKP9ZEJZwL%252F9tYe6Y%252FVZWP2EkTP9RZPrc31bjdIKbNp0tO%252FUG95Kwb0ZAY8s8CrLzHrZnLKhp%252Ftui4npVfEXMCZikJe7AJQreKl97XNOi8K4YW0xUdStZkRBpPg%253D%253D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002016s ]
+
+[ 2019-11-15T17:34:45+08:00 ] 59.36.132.240 http://129.211.3.88/jianli/?nsukey%3D2Bv%252Fw5LKyNMQdhojIX4O6IFPrg1k2u42OuVi2V9kMXH8zPXKdgbp%252B40qkCwBDAGQYXefMCTnaCsmsd4bP82aN8Gr5AKyKP9ZEJZwL%252F9tYe6Y%252FVZWP2EkTP9RZPrc31bjdIKbNp0tO%252FUG95Kwb0ZAY8s8CrLzHrZnLKhp%252Ftui4npVfEXMCZikJe7AJQreKl97XNOi8K4YW0xUdStZkRBpPg%253D%253D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+

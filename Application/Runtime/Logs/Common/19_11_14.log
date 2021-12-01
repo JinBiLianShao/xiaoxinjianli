@@ -1,0 +1,18 @@
+[ 2019-11-14T03:25:28+08:00 ] 101.89.19.140 http://129.211.3.88/jianli/hoe/admin/indexl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Hoe
+
+[ 2019-11-14T04:17:50+08:00 ] 59.36.132.240 http://129.211.3.88/jianli/hone/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Hone
+
+[ 2019-11-14T05:19:32+08:00 ] 183.3.226.200 /jianli/public/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Public
+

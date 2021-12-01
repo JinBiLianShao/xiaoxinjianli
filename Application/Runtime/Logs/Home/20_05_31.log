@@ -1,0 +1,328 @@
+[ 2020-05-31T13:16:59+08:00 ] 127.0.0.1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020786s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017075s ]
+
+[ 2020-05-31T13:17:00+08:00 ] 127.0.0.1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006977s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006380s ]
+
+[ 2020-05-31T13:17:07+08:00 ] 127.0.0.1 /jianli/home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: uername D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 90 行.
+NOTIC: [8] Undefined variable: nane D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 94 行.
+NOTIC: [8] Undefined variable: email D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 98 行.
+NOTIC: [8] Undefined variable: password D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005842s ]
+
+[ 2020-05-31T13:17:07+08:00 ] 127.0.0.1 /jianli/home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005809s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: uername D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 90 行.
+NOTIC: [8] Undefined variable: nane D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 94 行.
+NOTIC: [8] Undefined variable: email D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 98 行.
+NOTIC: [8] Undefined variable: password D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006136s ]
+
+[ 2020-05-31T13:17:46+08:00 ] 127.0.0.1 /jianli/home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005616s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0701s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='8888' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: nane D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 94 行.
+NOTIC: [8] Undefined variable: email D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 98 行.
+NOTIC: [8] Undefined variable: password D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005843s ]
+
+[ 2020-05-31T13:18:52+08:00 ] 127.0.0.1 /jianli/home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006049s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='888888' )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `uer` (`uername`,`name`,`email`,`password`) VALUES ('888888','宝藏女孩','1540676732@qq.com','6666') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024432s ]
+NOTIC: [8] Undefined variable: uername D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 90 行.
+NOTIC: [8] Undefined variable: nane D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 94 行.
+NOTIC: [8] Undefined variable: email D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 98 行.
+NOTIC: [8] Undefined variable: password D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\e2f1e8739761dd1b07196da7c9136d50.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015204s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006173s ]
+
+[ 2020-05-31T13:18:54+08:00 ] 127.0.0.1 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005804s ]
+
+[ 2020-05-31T13:18:55+08:00 ] 127.0.0.1 /jianli/home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005444s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2020-05-31T13:19:11+08:00 ] 127.0.0.1 /jianli/home/index/yzm?0.19883181711826436
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005948s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2020-05-31T13:19:30+08:00 ] 127.0.0.1 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005213s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='88888888' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021021s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012817s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005419s ]
+
+[ 2020-05-31T13:19:31+08:00 ] 127.0.0.1 /jianli/home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006079s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2020-05-31T13:19:32+08:00 ] 127.0.0.1 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006243s ]
+
+[ 2020-05-31T13:19:33+08:00 ] 127.0.0.1 /jianli/home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006988s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2020-05-31T13:19:53+08:00 ] 127.0.0.1 /jianli/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006794s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='888888' )  [ RunTime:0.0003s ]
+
+[ 2020-05-31T13:19:54+08:00 ] 127.0.0.1 /jianli/index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005946s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005919s ]
+
+[ 2020-05-31T13:19:56+08:00 ] 127.0.0.1 /jianli/index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005961s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\htdocs\jianli\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006382s ]
+
+[ 2020-05-31T13:31:27+08:00 ] 127.0.0.1 /jianli/index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006727s ]
+

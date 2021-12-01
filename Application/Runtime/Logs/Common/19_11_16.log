@@ -1,0 +1,54 @@
+[ 2019-11-16T10:31:44+08:00 ] 223.104.145.64 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-16T10:31:44+08:00 ] 223.104.145.64 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-16T10:32:08+08:00 ] 223.104.145.64 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-16T10:33:29+08:00 ] 223.104.145.64 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-16T10:33:32+08:00 ] 223.104.145.64 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-16T10:33:33+08:00 ] 223.104.145.64 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-16T10:50:50+08:00 ] 223.104.145.64 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-16T10:50:52+08:00 ] 223.104.145.64 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-16T15:27:33+08:00 ] 183.3.255.20 /jianli/public/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Public
+

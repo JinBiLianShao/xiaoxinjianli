@@ -1,0 +1,458 @@
+[ 2020-06-08T11:16:37+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.068541s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:16:37+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:16:38+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002817s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:16:38+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:00+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:00+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002218s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:21+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002722s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:21+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:33+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:33+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001946s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:40+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+ERR: 无法加载模块:Public
+
+:Public
+
+[ 2020-06-08T11:27:40+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:41+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:41+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001545s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:47+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:47+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:47+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:55+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:27:55+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:31:22+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:31:22+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:31:22+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:31:46+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:31:46+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:31:46+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:31:55+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:31:55+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001955s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:00+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:00+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:17+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001525s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:17+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:18+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:18+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:34+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:34+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:34+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:35+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:35+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:32:35+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:07+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:07+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:12+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:12+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:20+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:20+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:37+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:37+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004314s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:46+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:46+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002031s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:38:46+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:41:44+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001686s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T11:41:44+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:35:50+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:35:50+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:35:50+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:35:58+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:35:58+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:37:56+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:37:56+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:38:06+08:00 ] 127.0.0.1 /jianli/public/lib/bootstrap/js/bootstrap.bundle.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:38:06+08:00 ] 127.0.0.1 /jianli/public/lib/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:40:54+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:40:55+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:40:55+08:00 ] 127.0.0.1 /jianli/public/lib/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:40:55+08:00 ] 127.0.0.1 /jianli/public/lib/bootstrap/js/bootstrap.bundle.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001875s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:41:42+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001587s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:41:42+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001972s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:41:42+08:00 ] 127.0.0.1 /jianli/public/lib/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:41:42+08:00 ] 127.0.0.1 /jianli/public/lib/bootstrap/js/bootstrap.bundle.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004545s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:42:29+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:42:29+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003166s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:42:52+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:42:52+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:44:11+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:44:11+08:00 ] 127.0.0.1 /jianli/public/contact/jqBootstrapValidation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-08T12:44:11+08:00 ] 127.0.0.1 /jianli/public/contact/contact_me.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+ERR: 无法加载模块:Public
+

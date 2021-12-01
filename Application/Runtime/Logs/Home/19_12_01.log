@@ -1,0 +1,3660 @@
+[ 2019-12-01T15:06:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015569s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0781s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.018450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.018507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022140s ]
+
+[ 2019-12-01T15:07:13+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005177s ]
+
+[ 2019-12-01T15:07:14+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005968s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:07:32+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005253s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014223s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006714s ]
+
+[ 2019-12-01T15:07:33+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006499s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:07:33+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006085s ]
+
+[ 2019-12-01T15:07:34+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009797s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:07:53+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004277s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='zmqlsx1314' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024945s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012755s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005470s ]
+
+[ 2019-12-01T15:07:53+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015217s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:07:54+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004927s ]
+
+[ 2019-12-01T15:07:54+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005108s ]
+ERR: 非法操作:welcome
+
+[ 2019-12-01T15:10:44+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005973s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004253s ]
+
+[ 2019-12-01T15:10:44+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004397s ]
+
+[ 2019-12-01T15:10:55+08:00 ] 127.0.0.1 /home/admin/picture-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004416s ]
+ERR: 非法操作:picture-list
+
+[ 2019-12-01T15:15:43+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006754s ]
+
+[ 2019-12-01T15:15:43+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015666s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004749s ]
+
+[ 2019-12-01T15:15:46+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008378s ]
+
+[ 2019-12-01T15:15:46+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005280s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005181s ]
+
+[ 2019-12-01T15:15:56+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009520s ]
+
+[ 2019-12-01T15:15:56+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008400s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007238s ]
+
+[ 2019-12-01T15:16:14+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004721s ]
+
+[ 2019-12-01T15:16:14+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006526s ]
+
+[ 2019-12-01T15:16:15+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011562s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:16:21+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005140s ]
+
+[ 2019-12-01T15:16:22+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004718s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:16:22+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005011s ]
+
+[ 2019-12-01T15:16:23+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010893s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:16:44+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006539s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025938s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014575s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004701s ]
+
+[ 2019-12-01T15:16:44+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008176s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:16:45+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006385s ]
+
+[ 2019-12-01T15:16:46+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009234s ]
+
+[ 2019-12-01T15:16:51+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004696s ]
+
+[ 2019-12-01T15:16:52+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007222s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005169s ]
+
+[ 2019-12-01T15:17:46+08:00 ] 127.0.0.1 /home/admin/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004865s ]
+ERR: 非法操作:article-list
+
+[ 2019-12-01T15:17:55+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006532s ]
+
+[ 2019-12-01T15:17:56+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009360s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007170s ]
+
+[ 2019-12-01T15:19:34+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004354s ]
+
+[ 2019-12-01T15:19:35+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004333s ]
+
+[ 2019-12-01T15:19:35+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012015s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:20:00+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004457s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019526s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.012002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.025202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004382s ]
+
+[ 2019-12-01T15:20:00+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006845s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:20:01+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007449s ]
+
+[ 2019-12-01T15:20:01+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006142s ]
+
+[ 2019-12-01T15:22:03+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005086s ]
+
+[ 2019-12-01T15:22:04+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008957s ]
+
+[ 2019-12-01T15:22:07+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004952s ]
+
+[ 2019-12-01T15:22:07+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004693s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006949s ]
+
+[ 2019-12-01T15:27:49+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008362s ]
+
+[ 2019-12-01T15:27:49+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007017s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009492s ]
+
+[ 2019-12-01T15:27:55+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004824s ]
+
+[ 2019-12-01T15:27:55+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007725s ]
+
+[ 2019-12-01T15:27:55+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009575s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:28:00+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005249s ]
+
+[ 2019-12-01T15:28:00+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006827s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:28:16+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004373s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.022155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015010s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004810s ]
+
+[ 2019-12-01T15:28:16+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006314s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:28:17+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005247s ]
+
+[ 2019-12-01T15:28:17+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005003s ]
+
+[ 2019-12-01T15:28:20+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004136s ]
+
+[ 2019-12-01T15:28:20+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005054s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009646s ]
+
+[ 2019-12-01T15:37:25+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004841s ]
+
+[ 2019-12-01T15:37:25+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008517s ]
+
+[ 2019-12-01T15:37:41+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004107s ]
+
+[ 2019-12-01T15:37:41+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007142s ]
+
+[ 2019-12-01T15:37:41+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008321s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:37:52+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008358s ]
+
+[ 2019-12-01T15:37:52+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008684s ]
+
+[ 2019-12-01T15:37:53+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011950s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:38:49+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007052s ]
+
+[ 2019-12-01T15:38:49+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004743s ]
+
+[ 2019-12-01T15:38:49+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005538s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:39:25+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006691s ]
+
+[ 2019-12-01T15:39:25+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006037s ]
+
+[ 2019-12-01T15:39:27+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004402s ]
+
+[ 2019-12-01T15:39:28+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006218s ]
+
+[ 2019-12-01T15:39:30+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005805s ]
+
+[ 2019-12-01T15:39:30+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007143s ]
+
+[ 2019-12-01T15:39:46+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005553s ]
+
+[ 2019-12-01T15:39:46+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004038s ]
+
+[ 2019-12-01T15:39:46+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006924s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:40:05+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004703s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.022236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014969s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014065s ]
+
+[ 2019-12-01T15:40:06+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007152s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:40:06+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010059s ]
+
+[ 2019-12-01T15:40:07+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006039s ]
+
+[ 2019-12-01T15:40:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007313s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004466s ]
+
+[ 2019-12-01T15:40:24+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004545s ]
+
+[ 2019-12-01T15:40:24+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006796s ]
+
+[ 2019-12-01T15:40:29+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004270s ]
+
+[ 2019-12-01T15:40:29+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005048s ]
+
+[ 2019-12-01T15:40:29+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008916s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:40:33+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007627s ]
+
+[ 2019-12-01T15:40:34+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004426s ]
+
+[ 2019-12-01T15:40:34+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004918s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:40:48+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004470s ]
+
+[ 2019-12-01T15:40:48+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005163s ]
+
+[ 2019-12-01T15:40:51+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004557s ]
+
+[ 2019-12-01T15:40:51+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008823s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008698s ]
+
+[ 2019-12-01T15:40:51+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011479s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:40:54+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004807s ]
+
+[ 2019-12-01T15:40:54+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006196s ]
+
+[ 2019-12-01T15:40:55+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005450s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:41:02+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009486s ]
+
+[ 2019-12-01T15:41:02+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005891s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:41:15+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004351s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015397s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004306s ]
+
+[ 2019-12-01T15:41:15+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007295s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:41:16+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006716s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004964s ]
+
+[ 2019-12-01T15:41:16+08:00 ] 127.0.0.1 /home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012357s ]
+
+[ 2019-12-01T15:41:20+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005126s ]
+
+[ 2019-12-01T15:41:20+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009464s ]
+
+[ 2019-12-01T15:41:20+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009958s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:43:50+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008262s ]
+
+[ 2019-12-01T15:43:50+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007034s ]
+
+[ 2019-12-01T15:43:51+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013082s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:43:56+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+
+[ 2019-12-01T15:43:56+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004134s ]
+
+[ 2019-12-01T15:43:56+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005782s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:44:00+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004077s ]
+
+[ 2019-12-01T15:44:00+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004640s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:51:04+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004575s ]
+
+[ 2019-12-01T15:51:05+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004893s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004514s ]
+
+[ 2019-12-01T15:51:05+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015495s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:51:09+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007907s ]
+
+[ 2019-12-01T15:51:09+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008352s ]
+
+[ 2019-12-01T15:51:09+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007773s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:54:34+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004380s ]
+
+[ 2019-12-01T15:54:35+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005622s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:54:49+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007259s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0003s ]
+
+[ 2019-12-01T15:54:49+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004703s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004481s ]
+
+[ 2019-12-01T15:54:49+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003228s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004415s ]
+
+[ 2019-12-01T15:54:54+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004729s ]
+
+[ 2019-12-01T15:54:55+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007727s ]
+
+[ 2019-12-01T15:54:55+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007503s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:54:57+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005516s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004235s ]
+
+[ 2019-12-01T15:54:57+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005091s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:55:30+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006911s ]
+
+[ 2019-12-01T15:55:30+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004667s ]
+
+[ 2019-12-01T15:55:30+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005562s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:55:40+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007397s ]
+
+[ 2019-12-01T15:55:40+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006504s ]
+
+[ 2019-12-01T15:55:41+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006025s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:57:11+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006428s ]
+
+[ 2019-12-01T15:57:11+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005257s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:57:28+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004897s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0003s ]
+
+[ 2019-12-01T15:57:28+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004902s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004417s ]
+
+[ 2019-12-01T15:57:29+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008285s ]
+
+[ 2019-12-01T15:57:32+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004486s ]
+
+[ 2019-12-01T15:57:32+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010635s ]
+
+[ 2019-12-01T15:57:32+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006229s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:57:39+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004221s ]
+
+[ 2019-12-01T15:57:39+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004801s ]
+
+[ 2019-12-01T15:57:39+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007369s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:58:37+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004625s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006712s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.037887s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013554s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004913s ]
+
+[ 2019-12-01T15:58:38+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004725s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:58:39+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004711s ]
+
+[ 2019-12-01T15:58:39+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005392s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:58:51+08:00 ] 127.0.0.1 /home/index/yzm?0.4464760844325917
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004029s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:58:57+08:00 ] 127.0.0.1 /home/index/yzm?0.4464760844325917?0.22613839999012464
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004583s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:59:03+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005106s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0003s ]
+
+[ 2019-12-01T15:59:03+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008076s ]
+
+[ 2019-12-01T15:59:03+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010735s ]
+
+[ 2019-12-01T15:59:07+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004617s ]
+
+[ 2019-12-01T15:59:07+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009940s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004346s ]
+
+[ 2019-12-01T15:59:08+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011042s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T15:59:54+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004489s ]
+
+[ 2019-12-01T15:59:55+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004821s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004424s ]
+
+[ 2019-12-01T15:59:55+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005544s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:00:02+08:00 ] 127.0.0.1 /home/index/yzm?0.4464760844325917?0.22613839999012464?0.1335546162554736
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004492s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:00:08+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004728s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.027110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018026s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.022897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006946s ]
+
+[ 2019-12-01T16:00:08+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013007s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:00:09+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004269s ]
+
+[ 2019-12-01T16:00:09+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008434s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:00:28+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008480s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0002s ]
+
+[ 2019-12-01T16:00:28+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009747s ]
+
+[ 2019-12-01T16:00:28+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005644s ]
+
+[ 2019-12-01T16:00:35+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004128s ]
+
+[ 2019-12-01T16:00:35+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005093s ]
+
+[ 2019-12-01T16:00:37+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003920s ]
+
+[ 2019-12-01T16:00:37+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004979s ]
+
+[ 2019-12-01T16:01:20+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004471s ]
+
+[ 2019-12-01T16:01:21+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004811s ]
+
+[ 2019-12-01T16:01:25+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004850s ]
+
+[ 2019-12-01T16:01:25+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004660s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004442s ]
+
+[ 2019-12-01T16:01:29+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004183s ]
+
+[ 2019-12-01T16:01:30+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004228s ]
+
+[ 2019-12-01T16:01:30+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005156s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:02:48+08:00 ] 127.0.0.1 /index.php/home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004116s ]
+
+[ 2019-12-01T16:02:48+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004401s ]
+
+[ 2019-12-01T16:02:48+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006592s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:03:13+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007005s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004588s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014659s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004834s ]
+
+[ 2019-12-01T16:03:13+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043980s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:03:14+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005211s ]
+
+[ 2019-12-01T16:03:14+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007121s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:03:34+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004084s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024973s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015219s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006548s ]
+
+[ 2019-12-01T16:03:34+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007932s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:03:35+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003805s ]
+
+[ 2019-12-01T16:03:35+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004998s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:03:42+08:00 ] 127.0.0.1 /home/index/yzm?0.8996356929844275
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004138s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:03:48+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005945s ]
+SQL: SHOW COLUMNS FROM `uer` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `uer` WHERE ( uername='lsxzmq1314' )  [ RunTime:0.0004s ]
+
+[ 2019-12-01T16:03:48+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004275s ]
+
+[ 2019-12-01T16:03:48+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005737s ]
+
+[ 2019-12-01T16:06:28+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004993s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007105s ]
+
+[ 2019-12-01T16:06:29+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008223s ]
+
+[ 2019-12-01T16:07:02+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004467s ]
+
+[ 2019-12-01T16:07:02+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006126s ]
+
+[ 2019-12-01T16:07:22+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004466s ]
+
+[ 2019-12-01T16:07:23+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004360s ]
+
+[ 2019-12-01T16:07:50+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004124s ]
+
+[ 2019-12-01T16:07:51+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004501s ]
+
+[ 2019-12-01T16:07:59+08:00 ] 127.0.0.1 /index.php/home/admin/picture-add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004158s ]
+ERR: 非法操作:picture-add
+
+[ 2019-12-01T16:08:12+08:00 ] 127.0.0.1 /index.php/home/admin/picture-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004282s ]
+ERR: 非法操作:picture-list
+
+[ 2019-12-01T16:08:15+08:00 ] 127.0.0.1 /index.php/home/admin/article-add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007681s ]
+ERR: 非法操作:article-add
+
+[ 2019-12-01T16:10:12+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007232s ]
+
+[ 2019-12-01T16:10:12+08:00 ] 127.0.0.1 /index.php/home/admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005852s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 10 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 11 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 13 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 14 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 15 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 17 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 19 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 195 行.
+NOTIC: [8] Undefined variable: name D:\UPUPW_AP5.5\vhosts\www.test.com\Application\Runtime\Cache\Home\5507c29d362ae8625dc66f7486f5a875.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004327s ]
+
+[ 2019-12-01T16:10:14+08:00 ] 127.0.0.1 /home/admin/index/cook/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004096s ]
+
+[ 2019-12-01T16:10:14+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009135s ]
+
+[ 2019-12-01T16:10:14+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017678s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:10:20+08:00 ] 127.0.0.1 /home/admin/index/cook/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008870s ]
+
+[ 2019-12-01T16:10:20+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005531s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004667s ]
+
+[ 2019-12-01T16:10:31+08:00 ] 127.0.0.1 /home/admin/index/cook/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009093s ]
+
+[ 2019-12-01T16:10:31+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004658s ]
+
+[ 2019-12-01T16:10:32+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006270s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:10:39+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005928s ]
+
+[ 2019-12-01T16:10:39+08:00 ] 127.0.0.1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007741s ]
+
+[ 2019-12-01T16:10:39+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004653s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+
+[ 2019-12-01T16:13:03+08:00 ] 127.0.0.1 /index.php/home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006790s ]
+
+[ 2019-12-01T16:13:03+08:00 ] 127.0.0.1 /home/index/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007183s ]
+ERR: 模板不存在:./Application/Home/View/Index/yzm.html
+

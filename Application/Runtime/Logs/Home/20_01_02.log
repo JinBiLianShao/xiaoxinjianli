@@ -1,0 +1,154 @@
+[ 2020-01-02T14:34:20+08:00 ] 127.0.0.1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020598s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0638s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033481s ]
+
+[ 2020-01-02T14:34:53+08:00 ] 127.0.0.1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006681s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006751s ]
+
+[ 2020-01-02T14:35:05+08:00 ] 127.0.0.1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006689s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006780s ]
+
+[ 2020-01-02T14:36:10+08:00 ] 127.0.0.1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009927s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009051s ]
+
+[ 2020-01-02T14:38:16+08:00 ] 127.0.0.1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006695s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007414s ]
+
+[ 2020-01-02T14:38:52+08:00 ] 127.0.0.1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006753s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006717s ]
+
+[ 2020-01-02T14:39:56+08:00 ] 127.0.0.1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007790s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007263s ]
+

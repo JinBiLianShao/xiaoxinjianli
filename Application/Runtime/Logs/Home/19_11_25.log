@@ -1,0 +1,22 @@
+[ 2019-11-25T21:04:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019928s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0473s ]
+SQL: SELECT * FROM `liuyan` ORDER BY id desc LIMIT 10   [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000565s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016786s ]
+
